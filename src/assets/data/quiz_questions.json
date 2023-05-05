@@ -1,0 +1,141 @@
+{
+    "title": "Qual seria sua casa em Hogwarts?",
+    "questions": [
+        {
+            "id": 1,
+            "question": "O que você mais quer?",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "Impactar",
+                    "alias": "B"
+                },
+                {
+                    "id": 2,
+                    "name": "Conhecer",
+                    "alias": "D"
+                },
+                {
+                    "id": 3,
+                    "name": "Pertencer",
+                    "alias": "A"
+                },
+                {
+                    "id": 4,
+                    "name": "Construir",
+                    "alias": "C"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "O que te motiva?",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "Poder",
+                    "alias": "B"
+                },
+                {
+                    "id": 2,
+                    "name": "Fama",
+                    "alias": "A"
+                },
+                {
+                    "id": 3,
+                    "name": "Dinheiro",
+                    "alias": "C"
+                },
+                {
+                    "id": 4,
+                    "name": "Sucesso",
+                    "alias": "D"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Qual desses é o seu maior defeito?",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "Achar que sempre tenho razão",
+                    "alias": "A"
+                },
+                {
+                    "id": 2,
+                    "name": "Ser muito indeciso(a)",
+                    "alias": "C"
+                },
+                {
+                    "id": 3,
+                    "name": "Sentir-se culpado(a)",
+                    "alias": "D"
+                },
+                {
+                    "id": 4,
+                    "name": "Pensar mais nos outros",
+                    "alias": "B"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Por qual motivo você busca conhecimento?",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "Aprimoramento pessoal",
+                    "alias": "A"
+                },
+                {
+                    "id": 2,
+                    "name": "Estar pronto para as situações",
+                    "alias": "D"
+                },
+                {
+                    "id": 3,
+                    "name": "Descobrir coisas novas",
+                    "alias": "C"
+                },
+                {
+                    "id": 4,
+                    "name": "Chegar onde quero",
+                    "alias": "B"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Qual dessas opções você mais odiaria que as pessoas te chamassem?",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "Comum",
+                    "alias": "B"
+                },
+                {
+                    "id": 2,
+                    "name": "Ignorante",
+                    "alias": "D"
+                },
+                {
+                    "id": 2,
+                    "name": "Covarde",
+                    "alias": "A"
+                },
+                {
+                    "id": 2,
+                    "name": "Egoísta",
+                    "alias": "C"
+                }
+            ]
+        }
+    ],
+    "results": {
+        "A": "Parabéns, você é da Grifinória!",
+        "B": "Parabéns, você é da Sonserina!",
+        "C": "Parabéns, você é da Lufa-Lufa!",
+        "D": "Parabéns, você é da Corvinal!"
+    }
+}
