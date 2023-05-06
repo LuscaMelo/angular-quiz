@@ -1,7 +1,9 @@
 <div class="h-[100vh] w-[100vw] bg-[url('assets/bg.jpg')] bg-cover bg-center">
     <div class="h-full w-full bg-[#0009]">
         <div class="container mx-auto h-full flex flex-col justify-center items-center text-white">
-            <div *ngIf=!finished class="bg-[#0005] p-8 lg:p-20 mx-8 rounded-xl">
+            <img class="absolute top-0 left-[50%] translate-x-[-50%] w-[180px] lg:w-[210px]" src="assets/harry.png"
+                alt="">
+            <div *ngIf=!finished class="relative bg-[#0005] p-8 lg:p-20 mx-8 rounded-xl">
                 <h3 class="text-xl text-center font-bold">{{questionSelected.question}}</h3>
                 <div class="w-8 h-1 bg-gray-400 my-8 rounded-lg mx-auto"></div>
                 <div class="flex flex-wrap gap-3 justify-center">
@@ -9,7 +11,7 @@
                         class="border-2 border-gay-300 rounded px-8 py-1 scale-95 hover:scale-100 lg:px-8 lg:py-3 hover:bg-gray-300 hover:text-black duration-300">{{option.name}}</button>
                 </div>
             </div>
-            <div *ngIf=finished class=" flex flex-col justify-center items-center bg-[#0005] p-16 lg:p-20 rounded-xl">
+            <div *ngIf=finished class="flex flex-col justify-center items-center bg-[#0005] p-16 lg:p-26 rounded-xl">
                 <div class="w-[200px] mb-5">
                     <img src={{img}} alt="">
                 </div>
