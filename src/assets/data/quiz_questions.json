@@ -3,131 +3,215 @@
     "questions": [
         {
             "id": 1,
-            "question": "O que você mais quer?",
+            "question": "Em quesito amizade, você se considera uma pessoa:",
             "options": [
                 {
                     "id": 1,
-                    "name": "Impactar",
-                    "alias": "B"
-                },
-                {
-                    "id": 2,
-                    "name": "Conhecer",
-                    "alias": "D"
-                },
-                {
-                    "id": 3,
-                    "name": "Pertencer",
+                    "name": "Amigo pra vida toda",
                     "alias": "A"
                 },
                 {
-                    "id": 4,
-                    "name": "Construir",
+                    "id": 2,
+                    "name": "Poucas amizades",
+                    "alias": "B"
+                },
+                {
+                    "id": 3,
+                    "name": "Amigo (a) de todo mundo",
                     "alias": "C"
+                },
+                {
+                    "id": 4,
+                    "name": "Seletivo com amizades",
+                    "alias": "D"
                 }
             ]
         },
         {
             "id": 2,
-            "question": "O que te motiva?",
+            "question": "Uma frase que te defina:",
             "options": [
                 {
                     "id": 1,
-                    "name": "Poder",
+                    "name": "“Os fins justificam os meios”",
                     "alias": "B"
                 },
                 {
                     "id": 2,
-                    "name": "Fama",
-                    "alias": "A"
+                    "name": "“Tô com mal pressentimento”",
+                    "alias": "D"
                 },
                 {
                     "id": 3,
-                    "name": "Dinheiro",
-                    "alias": "C"
+                    "name": "“Só se vive uma vez”",
+                    "alias": "A"
                 },
                 {
                     "id": 4,
-                    "name": "Sucesso",
-                    "alias": "D"
+                    "name": "“Mais amor, por favor”",
+                    "alias": "C"
                 }
             ]
         },
         {
             "id": 3,
-            "question": "Qual desses é o seu maior defeito?",
+            "question": "Uma característica marcante:",
             "options": [
                 {
                     "id": 1,
-                    "name": "Achar que sempre tenho razão",
-                    "alias": "A"
-                },
-                {
-                    "id": 2,
-                    "name": "Ser muito indeciso(a)",
-                    "alias": "C"
-                },
-                {
-                    "id": 3,
-                    "name": "Sentir-se culpado(a)",
+                    "name": "Originalidade",
                     "alias": "D"
                 },
                 {
-                    "id": 4,
-                    "name": "Pensar mais nos outros",
+                    "id": 2,
+                    "name": "Teimosia",
+                    "alias": "A"
+                },
+                {
+                    "id": 3,
+                    "name": "Perfeccionismo",
                     "alias": "B"
+                },
+                {
+                    "id": 4,
+                    "name": "Gentileza",
+                    "alias": "C"
                 }
             ]
         },
         {
             "id": 4,
-            "question": "Por qual motivo você busca conhecimento?",
+            "question": "Se um dementador estivesse sugando a alma do seu pior inimigo, o que você faria?",
             "options": [
                 {
                     "id": 1,
-                    "name": "Aprimoramento pessoal",
-                    "alias": "A"
+                    "name": "Fugiria, cada um com seus problemas",
+                    "alias": "B"
                 },
                 {
                     "id": 2,
-                    "name": "Estar pronto para as situações",
-                    "alias": "D"
-                },
-                {
-                    "id": 3,
-                    "name": "Descobrir coisas novas",
+                    "name": "Chamaria um professor imediatamente",
                     "alias": "C"
                 },
                 {
+                    "id": 3,
+                    "name": "Jogaria um feitiço, se não desse certo, fugiria com ele, enfrentando o dementador",
+                    "alias": "A"
+                },
+                {
                     "id": 4,
-                    "name": "Chegar onde quero",
-                    "alias": "B"
+                    "name": "Tentaria jogar um feitiço, se não desse certo, eu sairia correndo",
+                    "alias": "D"
                 }
             ]
         },
         {
             "id": 5,
-            "question": "Qual dessas opções você mais odiaria que as pessoas te chamassem?",
+            "question": "Você está andando, e ao passar pelo corredor e escuta seu nome e risadinhas. O que você faz?",
             "options": [
                 {
                     "id": 1,
-                    "name": "Comum",
-                    "alias": "B"
-                },
-                {
-                    "id": 2,
-                    "name": "Ignorante",
+                    "name": "Passo direto, não me importo nenhum pouco sobre o que pensam ao meu respeito",
                     "alias": "D"
                 },
                 {
                     "id": 2,
-                    "name": "Covarde",
+                    "name": "Não faz diferença, eu sei o que sou e isso é o que importa",
+                    "alias": "C"
+                },
+                {
+                    "id": 3,
+                    "name": "Fale bem ou mal, mas falem de mim",
+                    "alias": "B"
+                },
+                {
+                    "id": 4,
+                    "name": "Eu bato de frente, se quiser falar, fala na minha cara",
+                    "alias": "A"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Em uma briga na qual você não está envolvido (a), mas seu amigo está. Qual seria sua atitude?",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "Se envolveria para ajudar seu amigo e atacaria o adversário",
                     "alias": "A"
                 },
                 {
                     "id": 2,
-                    "name": "Egoísta",
+                    "name": "Iria ignorar, pois não vale a pena o esforço",
+                    "alias": "D"
+                },
+                {
+                    "id": 3,
+                    "name": "ria ajudar indiretamente e atacaria o adversário sem ninguém ver para parecer que seu amigo está se sobressaindo",
+                    "alias": "B"
+                },
+                {
+                    "id": 4,
+                    "name": "Não atacaria nem ignoraria. Muito provavelmente você tentaria convencer seu amigo que não vale a pena brigar",
                     "alias": "C"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Em seu interior, você reconhece que seu maior defeito é:",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "Ser impulsivo",
+                    "alias": "A"
+                },
+                {
+                    "id": 2,
+                    "name": "Não conseguir pedir ajuda",
+                    "alias": "B"
+                },
+                {
+                    "id": 3,
+                    "name": "Ser sincero",
+                    "alias": "D"
+                },
+                {
+                    "id": 4,
+                    "name": "Ser bom demais com quem não merece",
+                    "alias": "C"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Quando você tem que tomar uma decisão, como que você toma ela:",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "Depois de pensar um pouco você segue seu instinto e escolhe aquilo que parece melhor pra você, que parece o mais certo",
+                    "alias": "C"
+                },
+                {
+                    "id": 2,
+                    "name": "Depois de avaliar suas opções você escolhe  que tem mais prós ou menos contras",
+                    "alias": "D"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Tem alguém super babaca brigando com sua amiga, de graça, sendo que ela não fez nada. Depois de gritar essa pessoa e sua melhor amiga vai para quartos separados. De quem você vai atrás primeiro?",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "Da sua melhor amiga",
+                    "alias": "A"
+                },
+                {
+                    "id": 2,
+                    "name": "Do suportável que xingou ela",
+                    "alias": "B"
                 }
             ]
         }
