@@ -7,7 +7,7 @@
             "options": [
                 {
                     "id": 1,
-                    "name": "Amigo pra vida toda",
+                    "name": "Amigo(a) pra vida toda",
                     "alias": "A"
                 },
                 {
@@ -17,7 +17,7 @@
                 },
                 {
                     "id": 3,
-                    "name": "Amigo (a) de todo mundo",
+                    "name": "Amigo(a) de todo mundo",
                     "alias": "C"
                 },
                 {
@@ -133,11 +133,11 @@
         },
         {
             "id": 6,
-            "question": "Em uma briga na qual você não está envolvido (a), mas seu amigo está. Qual seria sua atitude?",
+            "question": "Em uma briga na qual você não está envolvido(a), mas seu/sua amigo(a) está. Qual seria sua atitude?",
             "options": [
                 {
                     "id": 1,
-                    "name": "Se envolveria para ajudar seu amigo e atacaria o adversário",
+                    "name": "Se envolveria para ajudar seu/sua amigo(a) e atacaria o adversário",
                     "alias": "A"
                 },
                 {
@@ -147,12 +147,12 @@
                 },
                 {
                     "id": 3,
-                    "name": "ria ajudar indiretamente e atacaria o adversário sem ninguém ver para parecer que seu amigo está se sobressaindo",
+                    "name": "Iria ajudar indiretamente e atacaria o adversário sem ninguém ver, para parecer que seu/sua amigo(a) está se sobressaindo",
                     "alias": "B"
                 },
                 {
                     "id": 4,
-                    "name": "Não atacaria nem ignoraria. Muito provavelmente você tentaria convencer seu amigo que não vale a pena brigar",
+                    "name": "Não atacaria nem ignoraria. Muito provavelmente você tentaria convencer seu/sua amigo(a) que não vale a pena brigar",
                     "alias": "C"
                 }
             ]
@@ -163,7 +163,7 @@
             "options": [
                 {
                     "id": 1,
-                    "name": "Ser impulsivo",
+                    "name": "Ser impulsivo(a)",
                     "alias": "A"
                 },
                 {
@@ -173,7 +173,7 @@
                 },
                 {
                     "id": 3,
-                    "name": "Ser sincero",
+                    "name": "Ser sincero(a)",
                     "alias": "D"
                 },
                 {
@@ -194,14 +194,14 @@
                 },
                 {
                     "id": 2,
-                    "name": "Depois de avaliar suas opções você escolhe  que tem mais prós ou menos contras",
+                    "name": "Depois de avaliar suas opções você escolhe que tem mais prós ou menos contras",
                     "alias": "D"
                 }
             ]
         },
         {
             "id": 9,
-            "question": "Tem alguém super babaca brigando com sua amiga, de graça, sendo que ela não fez nada. Depois de gritar essa pessoa e sua melhor amiga vai para quartos separados. De quem você vai atrás primeiro?",
+            "question": "Tem alguém super babaca brigando com sua amiga, de graça, sendo que ela não fez nada. Depois de gritar, essa pessoa e sua melhor amiga vão para quartos separados. De quem você vai atrás primeiro?",
             "options": [
                 {
                     "id": 1,
