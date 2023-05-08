@@ -2,7 +2,7 @@
     <div class="min-h-[100vh] h-full w-full bg-[#0009] flex flex-col items-center justify-center">
         <img class="w-[180px] lg:w-[210px]" src="assets/harry.png" alt="">
         <div class="flex flex-col text-white">
-            <div *ngIf=!finished class="bg-[#0005] p-8 lg:p-20 mx-8 rounded-xl mb-20">
+            <div *ngIf=!finished class="bg-[#0005] p-8 lg:p-20 mx-8 rounded-xl mb-20 max-w-[1000px]">
                 <h3 class="text-xl text-center font-bold">{{questionSelected.question}}</h3>
                 <div class="w-8 h-1 bg-gray-400 my-8 rounded-lg mx-auto"></div>
                 <div class="flex flex-wrap gap-3 justify-center">
@@ -10,15 +10,16 @@
                         class="border-2 border-gay-300 rounded px-8 py-1 scale-95 hover:scale-100 lg:px-8 lg:py-3 hover:bg-gray-300 hover:text-black duration-300">{{option.name}}</button>
                 </div>
             </div>
-            <div *ngIf=finished class="flex flex-col justify-center items-center bg-[#0005] p-16 lg:p-26 rounded-xl">
+            <div *ngIf=finished
+                class="flex flex-col justify-center items-center bg-[#0005] p-4 lg:p-26 rounded-xl lg:min-w-[600px]">
                 <div class="w-[200px] mb-5">
                     <img src={{img}} alt="">
                 </div>
-                <h2>
+                <h2 class="text-center">
                     {{answerSelected}}
                 </h2>
                 <div class="flex justify-center mt-8">
-                    <button class="border-2 border-gray-300 px-6 py-2 rounded text-md scale-95 hover:scale-100 lg:px-8 lg:py-4
+                    <button class="border-2 border-gray-300 px-6 py-1 rounded text-md scale-95 hover:scale-100 lg:px-8 lg:py-4
                                 hover:bg-gray-300 hover:text-black duration-300" routerLink="">Finalizar</button>
                 </div>
             </div>

@@ -217,9 +217,9 @@
         }
     ],
     "results": {
-        "A": "Parabéns, você é da Grifinória!",
-        "B": "Parabéns, você é da Sonserina!",
-        "C": "Parabéns, você é da Lufa-Lufa!",
-        "D": "Parabéns, você é da Corvinal!"
+        "A": "Você seria da casa Grifinória!",
+        "B": "Você seria da casa Sonserina!",
+        "C": "Você seria da casa Lufa-Lufa!",
+        "D": "Você seria da casa Corvinal!"
     }
 }
