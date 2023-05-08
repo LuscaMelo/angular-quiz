@@ -1,9 +1,8 @@
-<div class="h-[100vh] w-[100vw] bg-[url('assets/bg.jpg')] bg-cover bg-center">
-    <div class="h-full w-full bg-[#0009]">
-        <div class="container mx-auto h-full flex flex-col justify-center items-center text-white">
-            <img class="absolute top-0 left-[50%] translate-x-[-50%] w-[180px] lg:w-[210px]" src="assets/harry.png"
-                alt="">
-            <div *ngIf=!finished class="relative bg-[#0005] p-8 lg:p-20 mx-8 rounded-xl">
+<div class="min-h-[100vh] h-full w-[100vw] bg-[url('assets/bg.jpg')] bg-cover bg-center">
+    <div class="min-h-[100vh] h-full w-full bg-[#0009] flex flex-col items-center justify-center">
+        <img class="w-[180px] lg:w-[210px]" src="assets/harry.png" alt="">
+        <div class="flex flex-col text-white">
+            <div *ngIf=!finished class="bg-[#0005] p-8 lg:p-20 mx-8 rounded-xl mb-20">
                 <h3 class="text-xl text-center font-bold">{{questionSelected.question}}</h3>
                 <div class="w-8 h-1 bg-gray-400 my-8 rounded-lg mx-auto"></div>
                 <div class="flex flex-wrap gap-3 justify-center">
